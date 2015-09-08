@@ -27,7 +27,7 @@ TODO:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/discovery.
+Bug reports and pull requests are welcome on GitHub at https://github.com/fcarucci/discovery.
 
 
 ## License

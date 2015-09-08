@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Very simple network service discovery}
   spec.description   = %q{Very simple network service discovery. It doesn't require Bonjour or avahi. }
-  spec.homepage      = "http://photo.carucci.org"
+  spec.homepage      = "https://github.com/fcarucci/discovery-ruby"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or
