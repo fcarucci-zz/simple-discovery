@@ -1,0 +1,12 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "discovery"
+
+announcer = Discovery::Announcer.new do |client, data|
+  puts "Serving #{client.inspect} #{data}"
+end
+
+puts "Announcer started..."
+announcer.add_service(name: "test_server", description: "Test Server", address: "10.0.0.1", port: 2512)
+announcer.join

@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+require "bundler/setup"
+require "discovery"
+require "awesome_print"
+
+browser = Discovery::Browser.new
+ap browser.response
