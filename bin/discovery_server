@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "discovery"
+require "simple_discovery"
 
 announcer = Discovery::Announcer.new do |client, data|
   puts "Serving #{client.inspect} #{data}"

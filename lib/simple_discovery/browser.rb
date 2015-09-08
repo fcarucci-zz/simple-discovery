@@ -1,9 +1,7 @@
-require 'discovery'
+require 'simple_discovery'
 
 require "socket"
 require "timeout"
-
-require "awesome_print"
 
 module Discovery
 
